@@ -1,0 +1,68 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+.players {
+  margin-bottom: 20px;
+}
+
+.players label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.players input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.board {
+  margin-top: 20px;
+}
+
+.board button {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  margin: 5px;
+  border: 2px solid #333;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.board button:hover {
+  background-color: #ccc;
+}
+
+#newGameBtn {
+  display: none;
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+p a {
+  color: #4CAF50;
+}

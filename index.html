@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tic Tac Toe</h1>
+    <div class="players">
+      <label for="player1">Player 1 Name:</label>
+      <input type="text" id="player1" placeholder="Enter Player 1's Name">
+      <label for="player2">Player 2 Name:</label>
+      <input type="text" id="player2" placeholder="Enter Player 2's Name">
+      <button onclick="startGame()">Start Game</button>
+    </div>
+    <div id="board" class="board"></div>
+    <button id="newGameBtn" onclick="newGame()">New Game</button>
+    <p>Developed by Sathish Dusharla<br>Instagram: <a href="https://www.instagram.com/thedusharla" target="_blank">@thedusharla</a></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
